@@ -30,6 +30,6 @@ public class Lab {
         {
             usedValue = y;
         }
-        return usedValue;
+        return usedValue; 
     }
 }
