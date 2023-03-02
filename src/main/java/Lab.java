@@ -19,7 +19,17 @@ public class Lab {
      * @param y second number to be compared.
      * @return x if bool is true. if bool is false, return y.
      */
-    public int ifExample(boolean bool, int x, int y){
-        return 0;
+    public int ifExample(boolean bool, int x, int y)
+    {
+        int usedValue;
+        if (bool == true) 
+        {
+            usedValue = x;
+        }
+        else 
+        {
+            usedValue = y;
+        }
+        return usedValue;
     }
 }
